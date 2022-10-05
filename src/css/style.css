@@ -1,0 +1,90 @@
+.header { 
+    width: 100%;
+    height: 70px;
+    margin: 0;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-texts {
+    font-size: 50px;
+    font-weight: 600;
+    width: 480px;
+    justify-content: space-between;
+    display: flex;
+    box-sizing: border-box;
+    padding: 0px 10px 0px 10px;
+    align-items: center;
+}
+
+.header-texts div {
+    display: flex;
+    width: auto;
+    font-family: 'Silkscreen', cursive;
+    font-size: 45px;
+}
+
+.header-texts img {
+    height: 60px;
+    width: 60px;
+    margin-top: -8px;
+    margin-right: -9px;
+}
+
+.header-texts div:hover {
+    color: rgb(58, 58, 58);
+    cursor: pointer;
+}
+
+.albums {
+    font-size: 30px;
+}
+
+.albums:hover {
+    color: rgb(58, 58, 58);
+    cursor: pointer;
+}
+
+.dropbox {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;    
+}
+
+.dropbox ion-icon {
+    font-size: 60px;
+    margin: 6px 20px 1px 20px; 
+}
+
+.dropbox ion-icon:hover {
+    color: rgb(58, 58, 58);
+    cursor: pointer;
+}
+
+.dropbox-options {
+    width: 100px;
+    height: 100px;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.dropbox-options ul {
+    list-style: none;
+    margin-left: -30px;
+    font-size: 20px;
+}
+
+.dropbox-options li {
+    margin-top: 5px;
+    font-weight: 600;
+}
+
+.dropbox-options li:hover {
+    color: rgb(58, 58, 58);
+    cursor: pointer;
+}
